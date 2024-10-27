@@ -29,5 +29,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2",
     "sass": "^1.79.4"
+  },
+  "dependencies": {
+    "typed.js": "^2.1.0"
   }
 }
