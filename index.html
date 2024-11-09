@@ -60,6 +60,16 @@
           class="btn-rounded-white"
           >Download Resume</a
         >
+        <br />
+        <br />
+        <div class="icon-container">
+          <a href="https://www.linkedin.com/in/mohitchotani/" target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a href="https://github.com/Mohitchotani2000" target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+        </div>
       </div>
       <!-- End #lead-content -->
 
@@ -107,7 +117,14 @@
       <h2 class="heading">Experience</h2>
       <div id="experience-timeline">
         <div data-date="July 2023 – Present">
-          <h3>Jubilant Foodworks Ltd., Noida, India</h3>
+          <div class="company-info">
+            <h3>Jubilant Foodworks Ltd., Noida, India</h3>
+            <img
+              src="images/jubilant_foodworks_ltd__logo.jpeg"
+              alt="jubilant Logo"
+              class="company-logo"
+            />
+          </div>
           <h4>Software Engineer, DMS Team (Domino’s)</h4>
           <ul style="list-style-type: square">
             <li>
@@ -146,7 +163,14 @@
         </div>
 
         <div data-date="January 2023 – July 2023">
-          <h3>Jubilant FoodWorks Ltd., Noida, India</h3>
+          <div class="company-info">
+            <h3>Jubilant FoodWorks Ltd., Noida, India</h3>
+            <img
+              src="images/jubilant_foodworks_ltd__logo.jpeg"
+              alt="jubilant Logo"
+              class="company-logo"
+            />
+          </div>
           <h4>Software Engineer Intern, Payments Team (Domino’s)</h4>
           <ul style="list-style-type: square">
             <li>
@@ -180,7 +204,15 @@
 
         <div data-date="March 2021 – March 2022">
           <h3>IEI - VIT, Vellore, Tamil Nadu</h3>
-          <h4>Vice Chairperson</h4>
+          <div class="company-info">
+            <h4>Vice Chairperson</h4>
+            <img
+              src="images/iei_Logo.jpg"
+              alt="iei Logo"
+              class="company-logo"
+            />
+          </div>
+
           <ul style="list-style-type: square">
             <li>
               <p>
@@ -212,25 +244,6 @@
     </div>
     <!-- End #experience -->
 
-    <!-- <div id="education">
-      <h2 class="heading">Education</h2>
-      <div class="education-block">
-        <h3>Vellore Institute of Technology (VIT), Vellore, India</h3>
-        <span class="education-date">July 2019 - May 2023</span>
-        <h4>Bachelor of Technology in Computer Science & Engineering</h4>
-        <img src="images/vitlogo.jpeg" />
-        <h4 style="color: black">Relevant Courseworks:</h4>
-        <ul>
-          <li>Data Structure and Algorithms</li>
-          <li>Operating Systems</li>
-          <li>Database Management Systems</li>
-          <li>Artificial Intelligence</li>
-          <li>Software Engineering</li>
-        </ul>
-      </div> -->
-    <!-- End .education-block -->
-    <!-- </div> -->
-    <!-- End #education -->
     <div id="education">
       <h2 class="heading">Education</h2>
       <div class="education-block">
@@ -253,6 +266,30 @@
           </div>
         </div>
       </div>
+      <div class="education-block">
+        <h3>Blue Bells Model School, Gurgaon, India</h3>
+        <span class="education-date">March 2019</span>
+        <h4>High School, CBSE</h4>
+        <div class="coursework-logo-container">
+          <div class="coursework">
+            <h4 style="color: black">Relevant Courseworks:</h4>
+            <ul>
+              <li>Physics</li>
+              <li>Chemistry</li>
+              <li>Maths</li>
+              <li>English</li>
+              <li>French</li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img
+              src="images/bbms-logo.png"
+              alt="BBMS Logo"
+              style="width: 110px"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="projects" class="background-alt">
@@ -267,14 +304,19 @@
             <div class="project-info">
               <h3>Healthcare Management System with AI-driven Chatbot</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
+                The Healthcare Management System is an AI-enhanced platform
+                featuring an IBM Watson-powered chatbot and a Node.js
+                microservices architecture for fast, efficient data handling.
+                With a React.js frontend integrated seamlessly with the backend,
+                it provides an intuitive experience for users. The system
+                includes four core modules—Admin, Doctor, Patient, and
+                COVID-19—connected through RESTful APIs. Robust security
+                measures, including JWT, ensure patient data protection in
+                compliance with industry standards.
               </p>
               <a
                 href="https://github.com/Mohitchotani2000/HealthCareSystem_WithChatbot"
+                target="_blank"
                 >View Project</a
               >
             </div>
@@ -290,13 +332,22 @@
             <div class="project-info">
               <h3>Real-Time Allocation of Cabs</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
+                The Real-Time Allocation of Cabs project employs an unsupervised
+                machine learning algorithm in Python to dynamically cluster taxi
+                zones, optimizing cab allocation. Data is processed and
+                structured to incorporate temporal and spatial features,
+                allowing for effective analysis. K-Means clustering is used to
+                form distinct zone clusters, validated with Silhouette,
+                Calinski, and Davies-Bouldin indices. The project includes
+                visualizing clustered zones on a map, enhancing service
+                allocation and improving customer satisfaction for taxi
+                providers.
               </p>
-              <a href="#">View Project</a>
+              <a
+                href="https://colab.research.google.com/drive/1kZdFf8hWkCLa_s_0h313WGPzzVXXW7ca#scrollTo=dffb9fd0"
+                target="_blank"
+                >View Project</a
+              >
             </div>
             <!-- End .project-info -->
           </div>
@@ -308,13 +359,20 @@
             <div class="project-info">
               <h3>E-Commerce Application (BAZAAR)</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
-                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
+                The E-Commerce Application (BAZAAR) is a comprehensive platform
+                built using Spring Boot and ReactJS, providing a seamless
+                shopping experience. It features a resilient cart and order
+                microservice, leveraging Java 17 streams, lambda expressions,
+                Redis cache, and MariaDB for efficient management. RESTful APIs
+                enable dynamic cart operations, while ReactJS SPA techniques,
+                including useState, Redux, and useEffect hooks, enhance frontend
+                functionality. The system integrates user, product, cart, and
+                order microservices using Spring Boot and REST Template for
+                smooth, coordinated interaction.
               </p>
-              <a href="https://github.com/Mohitchotani2000/E-Commmerce"
+              <a
+                href="https://github.com/Mohitchotani2000/E-Commmerce"
+                target="_blank"
                 >View Project</a
               >
             </div>

@@ -1013,3 +1013,40 @@ footer {
     }
   }
 }
+
+
+.icon-container a i {
+  font-size: 37px; 
+  color: white;    
+}
+
+.icon-container {
+  margin-top: 15px; 
+}
+
+.icon-container a {
+  margin: 0 10px; 
+  text-decoration: none; 
+}
+
+.icon-container a i {
+  transition: color 0.3s ease;
+}
+
+.icon-container a:hover i {
+  color: #0077b5; 
+}
+.icon-container a:nth-child(2):hover i {
+  color: #333;  
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-logo {
+  margin-left: 20px;
+  width: 70px;
+}
